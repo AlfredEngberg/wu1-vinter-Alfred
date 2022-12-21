@@ -7,15 +7,24 @@ body {
     padding: 0;
     display: grid;
     place-items: center;
-    background-color: rgba(103, 157, 157, 0.587);
+    background-color:crimson;
+    font-family: 'Jim Nightshade', cursive;
 }
 
 h1 {
     font-size: 8rem;
     color: #fff;
-    font-family: sans-serif;
+    margin: 0;
 }
 
+h2 {
+    color: #fff;
+    margin: 0;
+}
+
+h3 {
+    color:#fff;
+}
 
 canvas {
     position: absolute;
@@ -23,3 +32,4 @@ canvas {
     left: 0;
     z-index: 100;
 }
+

@@ -41,7 +41,7 @@ function step(timestamp) {
         element.draw();
     });
 
-    spawnParticles(5);
+    spawnParticles(3);
 
     window.requestAnimationFrame(step);
 }
